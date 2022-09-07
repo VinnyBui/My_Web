@@ -25,6 +25,7 @@ a{
     color: white;
 }
 
+
 .nav-bar{
     background: var(--drkPurple);
     margin: 100px auto;
@@ -36,6 +37,7 @@ a{
     border-radius: 15px;
     font-size: 20px;
     font-weight: bold;
+    box-shadow: 5px 5px 20px white;
 }
 
 /*---About-Me---*/
