@@ -8,9 +8,12 @@
 <body>
     <header>
         <div class="nav-bar">
-            <a href="#about">About</a>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
+            <a href="">Logo</a>
+            <ul class="nav_links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
         </div>
     </header>
     
@@ -19,19 +22,19 @@
         <h1> Vinh Bui </h1>
         <div class="flex-container">
             <div class="box"></div>
-            <p> 
-                I'm a Junior at Cal State Fullerton and is currently getting a 
-                degree in Computer Science. Within Computer Science, I want to pursue
-                a career in Front End Web Development. 
-            </p>
-            <div class="links">
+                <p> 
+                    I'm a Junior at Cal State Fullerton and is currently getting a 
+                    degree in Computer Science. Within Computer Science, I want to pursue
+                    a career in Front End Web Development. 
+                </p>
+            <aside class="links">
                 <a href="https://github.com/VinnyBui">
                     <img src="imgs/github.png " class="home-icons">
                 </a>
                 <a href="https://www.linkedin.com/in/vinh-bui-46b561220/">
                     <img src="imgs/linkedin.png " class="home-icons">
                 </a>
-            </div>
+            </aside>
             <a href="files/Resume.pdf" download class="resumeBtn">
                 Resume
                 <img src="imgs/download.png" class="home-icons"></img>
@@ -39,6 +42,30 @@
         </div>
     </section>
     
+    <main id="projects">
+        <h1>My Projects</h1>
+        <ul class="flex-projects">
+            <li>
+                <div class="project">
+                    <img src="imgs/random.jpg" alt="project-picture" class="project-pic">
+                    <h3>My Library</h3>
+                </div>
+            </li>
+            <!--<li>
+                <div class="project">
+                    <img src="imgs/random.jpg" alt="project-picture" class="project-pic">
+                    <h3>My Librar2y</h3>
+                </div>               
+            </li>
+            <li>
+                <div class="project">
+                    <img src="imgs/random.jpg" alt="project-picture" class="project-pic">
+                    <h3>My Library3</h3>   
+                </div>                
+            </li>-->
+        </ul>
+        
+    </main>
 
     <script src="script.js" defer></script>
 </body>
