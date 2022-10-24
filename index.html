@@ -12,7 +12,7 @@
             <ul class="nav_links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </div>
     </header>
@@ -22,11 +22,11 @@
         <h1> Vinh Bui </h1>
         <div class="flex-container">
             <div class="box"></div>
-                <p> 
-                    I'm a 4th year at Cal State Fullerton and is currently getting a 
-                    degree in Computer Science. Within Computer Science, I want to pursue
-                    a career in Front End Web Development. 
-                </p>
+            <p> 
+                I'm a 4th year at Cal State Fullerton and is currently getting a 
+                degree in Computer Science. Within Computer Science, I want to pursue
+                a career in Front End Web Development. 
+            </p>
             <aside class="links">
                 <a href="https://github.com/VinnyBui">
                     <img src="imgs/github.png " class="home-icons">
@@ -45,7 +45,7 @@
     <main id="projects">
         <h1>My Projects</h1>
         <div class="box"></div>
-        <p class="project-name">Project-Name</p>
+        <p class="project-name">Library</p>
         <div class="flex-projects">
             <div class="project">
                 <img src="imgs/MyLibraryWeb.PNG" alt="project-picture" class="project-pic">
@@ -110,6 +110,37 @@
             <button type="button" class="nextBtn btn">></button>
           </div>
     </main>
+
+    <footer id="Contact">
+        <h1>Contact Me</h1>
+        <div class="box"></div>
+        <section class="contact_container">
+            <div class="contacts">
+                <div class="contact_info">
+                    <img src="imgs/email.png" alt="emailLogo">
+                    <div class="info">
+                        <h3 class="infoLabel">Email</h3>
+                        <p class="subInfo">vinh.bui0101@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact_info">
+                    <img src="imgs/placeholder.png" alt="emailLogo">
+                    <div class="info">
+                        <h3 class="infoLabel">Location</h3>
+                        <p class="subInfo">Garden Grove, 92840</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contactForm">
+                <input type="text" id="name" placeholder="Full Name" class="formStyle" required>
+                <input type="email" id="email" placeholder="Your Email" class="formStyle"  required>
+                <textarea id="message"  rows="5" placeholder="Your message" class="formStyle"></textarea>
+                <button type="submit" class="submitBtn formStyle">Send</button>
+            </form>
+        </section>
+
+    </footer>
 
     <script src="script.js" defer></script>
 </body>
