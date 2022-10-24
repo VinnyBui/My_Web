@@ -47,8 +47,30 @@ ul{
     list-style-type: none;
 }
 
+.link{
+    position: relative;
+}
+
+.link:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--lightPurple);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.link:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 header a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 /*---About-Me---*/
@@ -268,3 +290,24 @@ textarea{
         gap: 1rem;
     }
 }
+
+/*---Scroll Bar Style---*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--drkPurple); 
+  }
