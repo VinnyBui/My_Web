@@ -168,7 +168,7 @@ main h1{
     justify-content: center;
     align-items: center;
     opacity: 0;
-  }
+}
 
 .project-bg:hover{
     opacity: 1;
@@ -215,7 +215,7 @@ main h1{
 /*---Contact Me---*/
 
 footer{
-    height: 40rem;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -299,13 +299,37 @@ textarea{
     width: 2.2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .contactForm{
-        width: 15rem;
+        margin-top: 3rem;
     }
   
+   .contact_container{
+    flex-direction: column;
+   }
+
     .contact_container{
         gap: 1rem;
+    }
+
+    .flex-projects{
+        width: 50rem;
+    }
+    
+    .project-pic{
+        width: 50rem;
+    }
+    
+    .project-bg {
+        position: absolute;
+        top: 0;
+        width: 50rem;
+        height: 98.5%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
     }
 }
 
