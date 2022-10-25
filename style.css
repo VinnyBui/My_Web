@@ -321,15 +321,7 @@ textarea{
     }
     
     .project-bg {
-        position: absolute;
-        top: 0;
         width: 50rem;
-        height: 98.5%;
-        background-color: rgba(0, 0, 0, 0.3);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
     }
 }
 
@@ -341,15 +333,16 @@ textarea{
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: white; 
+    background: var(--gradient); 
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: var(--drkPurple);
+    border-radius: 100px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--drkPurple); 
+    background: var(--lightPurple); 
   }
