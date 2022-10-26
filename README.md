@@ -7,3 +7,5 @@
 <a href="https://www.flaticon.com/free-icons/gps" title="gps icons">Gps icons created by Freepik - Flaticon</a>
 
 <a href="https://www.flaticon.com/free-icons/up-arrow" title="up arrow icons">Up arrow icons created by dmitri13 - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/letter-v" title="letter v icons">Letter v icons created by Zane Priedite - Flaticon</a>
