@@ -46,3 +46,22 @@ function carousel(){
     projectName.innerHTML = "Calculator";
   }
 }
+
+//Contact Email
+nameT = document.getElementById("name");
+email = document.getElementById("email");
+msg = document.getElementById("message");
+
+function sendEmail(){
+  Email.send({
+    SecureToken: "6537cbd7-6291-4ffe-845d-1a359e57615b",
+    To : 'vinh.bui0101@gmail.com',
+    From : email.value,
+    Subject : "New Contact Form Enquiry",
+    Body : "Name: " + nameT.value
+          + "<br> Email: " + email.value
+          + "<br> Message: " + msg.value
+}).then(
+  message => alert("Message Sent!")
+);
+}

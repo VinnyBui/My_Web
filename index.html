@@ -25,7 +25,7 @@
             <p> 
                 I'm a 4th year at Cal State Fullerton and is currently getting a 
                 degree in Computer Science. Within Computer Science, I want to pursue
-                a career in Front End Web Development. 
+                a career in Front End Web Development but is open to any opportunities.
             </p>
             <aside class="links">
                 <a href="https://github.com/VinnyBui">
@@ -132,7 +132,7 @@
                 </div>
             </div>
 
-            <form class="contactForm">
+            <form class="contactForm" onsubmit="sendEmail(); reset(); return false;"">
                 <input type="text" id="name" placeholder="Full Name" class="formStyle" required>
                 <input type="email" id="email" placeholder="Your Email" class="formStyle"  required>
                 <textarea id="message"  rows="5" placeholder="Your message" class="formStyle"></textarea>
@@ -143,5 +143,6 @@
     </footer>
 
     <script src="script.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
