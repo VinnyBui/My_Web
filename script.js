@@ -54,7 +54,7 @@ msg = document.getElementById("message");
 
 function sendEmail(){
   Email.send({
-    SecureToken: "6537cbd7-6291-4ffe-845d-1a359e57615b",
+    SecureToken: "4e3695c8-5e82-4148-9121-ddb2e941ccf5",
     To : 'vinh.bui0101@gmail.com',
     From : email.value,
     Subject : "New Contact Form Enquiry",
